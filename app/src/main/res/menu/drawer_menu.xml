@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/main_group" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="Inicio" />
+
+        <item android:title="Ligas">
+            <menu>
+                <item
+                    android:id="@+id/nav_premier"
+                    android:title="Premier League" />
+                <item
+                    android:id="@+id/nav_laliga"
+                    android:title="LaLiga" />
+                <item
+                    android:id="@+id/nav_seriea"
+                    android:title="Serie A" />
+                <item
+                    android:id="@+id/nav_bundesliga"
+                    android:title="Bundesliga" />
+                <item
+                    android:id="@+id/nav_ligue1"
+                    android:title="Ligue 1" />
+            </menu>
+        </item>
+
+        <item android:title="Competiciones">
+            <menu>
+                <item
+                    android:id="@+id/nav_champions"
+                    android:title="Champions League" />
+                <item
+                    android:id="@+id/nav_europa"
+                    android:title="Europa League" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_live"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="En Directo" />
+    </group>
+
+    <group android:id="@+id/secondary_group">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="Ajustes" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Redes Sociales" />
+    </group>
+</menu>

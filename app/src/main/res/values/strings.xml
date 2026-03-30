@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BetAnalyzier</string>
+    <string name="nav_header_title">BetAnalyzier Pro</string>
+    <string name="nav_header_subtitle">Análisis de fútbol profesional</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_leagues">Ligas</string>
+    <string name="menu_premier">Premier League</string>
+    <string name="menu_laliga">LaLiga</string>
+    <string name="menu_seriea">Serie A</string>
+    <string name="menu_bundesliga">Bundesliga</string>
+    <string name="menu_ligue1">Ligue 1</string>
+    <string name="menu_competitions">Competiciones</string>
+    <string name="menu_champions">Champions League</string>
+    <string name="menu_europa">Europa League</string>
+    <string name="menu_live">En Directo</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_social">Redes Sociales</string>
+</resources>
